@@ -16,7 +16,11 @@ This project demonstrates how to secure a system against brute force attacks usi
 ---
 
 ## 🔐 Task 1: SSH + Fail2Ban (Kali Linux)
+### ⚙️ Fail2Ban Service Running
 
+Fail2Ban service was successfully enabled and is actively running.
+
+![Fail2Ban Service](Fail2ban service running.jpg)
 ### ✅ Objectives
 - Configure SSH using password authentication
 - Simulate brute force attack attempts
@@ -26,12 +30,20 @@ SSH permission denied.jpg
 - Max retry: 3
 - Find time: 5 minutes
 - Ban time: 5 minutes
+### 🚫 Failed SSH Login Attempts
 
+Multiple failed login attempts were detected on the system.
+
+![SSH Failed](SSH permission denied.jpg)
 ### 🧪 Results
 - Failed login attempts were detected
 - Attacker IP was automatically banned
 - Logs confirmed blocking activity
+### 🔒 Fail2Ban Blocking Attacker
 
+After repeated failed login attempts, Fail2Ban automatically blocked the attacking IP address.
+
+![Fail2Ban Ban](Fail2ban banned ip.jpg)
 ---
 
 ## 🌐 Task 2: Network SSH Configuration (Packet Tracer)
@@ -51,7 +63,19 @@ SSH permission denied.jpg
 - Successful ping between networks
 - SSH login to switch successful
 - Secure remote management achieved
+## 🌐 Network Topology
 
+This shows the network design used for the lab, including router, switch, and connected devices.
+
+![Topology](Network-topology.png)
+
+---
+
+### 🔗 Connectivity Test
+
+Tested connectivity between devices using ping.
+
+![Ping Test](ping-testing.png)
 ---
 
 ## 
