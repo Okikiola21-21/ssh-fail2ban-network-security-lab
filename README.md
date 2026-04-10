@@ -20,7 +20,7 @@ This project demonstrates how to secure a system against brute force attacks usi
 
 Fail2Ban service was successfully enabled and is actively running.
 
-![Fail2Ban Service](Fail2ban service running.jpg)
+![Fail2Ban Service](ssh-service-running.png)
 ### ✅ Objectives
 - Configure SSH using password authentication
 - Simulate brute force attack attempts
@@ -34,7 +34,7 @@ SSH permission denied.jpg
 
 Multiple failed login attempts were detected on the system.
 
-![SSH Failed](SSH permission denied.jpg)
+![SSH Failed](permission-denied.png)
 ### 🧪 Results
 - Failed login attempts were detected
 - Attacker IP was automatically banned
@@ -43,7 +43,7 @@ Multiple failed login attempts were detected on the system.
 
 After repeated failed login attempts, Fail2Ban automatically blocked the attacking IP address.
 
-![Fail2Ban Ban](Fail2ban banned ip.jpg)
+![Fail2Ban Ban](fail2ban-banned-ip.png)
 ---
 
 ## 🌐 Task 2: Network SSH Configuration (Packet Tracer)
