@@ -21,7 +21,7 @@ This project demonstrates how to secure a system against brute force attacks usi
 - Configure SSH using password authentication
 - Simulate brute force attack attempts
 - Configure Fail2Ban to block attacker IP after 3 failed attempts
-
+SSH permission denied.jpg
 ### ⚙️ Configuration
 - Max retry: 3
 - Find time: 5 minutes
@@ -54,10 +54,10 @@ This project demonstrates how to secure a system against brute force attacks usi
 
 ---
 
-## 📸 Screenshots
+## 
 
 ### 🔹 Fail2Ban Blocking Attacker
-(Add your screenshot here)
+(SSH permission denied.jpg)
 
 ### 🔹 Network Topology
 (Add your screenshot here)
